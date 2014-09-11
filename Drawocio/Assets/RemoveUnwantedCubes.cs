@@ -15,11 +15,5 @@ public class RemoveUnwantedCubes : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col)
 	{
-		Debug.Log ("hi!");
-		Debug.Log (col.gameObject.name);
-		if (col.gameObject.name == "TestCube") {
-			Destroy (col.gameObject);
-			Debug.Log("Destroyed");
-		}
 	}
 }
